@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8" ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+	<title>Photo creator</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	
+    <center>
+    <h1>Welcome to photo creator</h1>
+    </center>
+    <div>
+	<h3>File Uploader:</h3>
+            Select a file to upload: <br />
+            <form action="UploadServlet" method="post"
+                        enctype="multipart/form-data">
+            <input type="file" name="file" id="image" size="50" />
+            <br/>
+            <br/>
+            <center>
+
+            <input type="submit" value="Upload File" />
+            </center>
+
+        </form>
+        <br/>
+        <br/>
+        <form action="index.jsp" method="post">
+            Select continue to see the uploaded pictures: 
+            <input type="submit" value="continue" />
+        </form>	
+        
+    </div>
+</body>
+</html>

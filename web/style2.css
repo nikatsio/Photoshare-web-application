@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tools{
+	width: 300px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+        float: right;
+        padding-top:60px;
+
+}
+
+.picture{
+   
+    width: 850px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+        float: left;
+        
+    
+}
+
+.all{
+    
+    width: 1200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
